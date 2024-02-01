@@ -1,0 +1,56 @@
+
+.logo {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.tabla1 {
+    padding-inline: 110px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    background-color: #5D6D7E;
+    align-items: center;
+}
+hr {
+    border: 2px solid black;
+}
+
+#imagenes{
+    width: auto;
+    height: 350px;
+    margin-bottom: 0;
+    display: block;
+    padding-inline: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.ingresarDatos1 {
+    margin-right: 20px;
+}
+.ingresarDatos2 {
+    margin-right: 20px;
+}
+#imagenes2 {
+    width: 600px;
+    height: 600px;
+    display: flex;
+}
+
+#cuadro {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 0;  
+}
+#global {
+    margin-top: -500px;
+}
+button {
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    gap: 20px;
+}
