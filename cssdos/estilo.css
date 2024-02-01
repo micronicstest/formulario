@@ -22,7 +22,6 @@ font-size:20px;
 #contenedor form{
 padding:10px;
 margin:10px 30px;
-border:thin solid #E9E9E9;
 border-radius:20px;
 -webkit-border-radius:20px;
 -moz-border-radius:20px;
@@ -110,12 +109,19 @@ footer{
 	background: #272727;
 	text-align: center;
 	padding: 20px 2%;
+
 }
 .pastelero {
 	float: right;
-	margin-right: 40px;
-	height: 600px;
-	width: 500px; 
+	margin-right: 10px;
+	height: 100%;
+	width: auto; 
 	background-color: #272727;
 	padding: 10px;
+}
+
+@media (max-width:600px) {
+	img {
+		max-width: 100%
+	}
 }
